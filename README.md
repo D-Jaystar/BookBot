@@ -1,5 +1,6 @@
-#BookBot
-# BookBot
+    #BookBot
+
+BookBot is my first [Boot.dev](https://www.boot.dev) project!
 
 BookBot is a Python-based command-line tool designed to analyze books and text documents. It reads text files, calculates the total word count, and tallies the frequency of each character to generate a clear summary report.
 
