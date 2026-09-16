@@ -1,4 +1,6 @@
 import os
+from stats import word_splicer
+from stats import character_count
 
 
 
@@ -8,11 +10,6 @@ def get_book_text(path: str) -> str:
     return file_contents
 
 
-
-def word_splicer(text:str)->int:
-    words: str = text.split()
-    total:int = (len(words))
-    return total
 
 
 
@@ -39,6 +36,8 @@ def main()->None:
     text:str = get_book_text(book_path)
     number_of_words:int = word_splicer(text)
     print(f"Found {number_of_words} total words")
+    chars:dict[str,int] = character_count(text)
+    print(chars)
 
 
 
