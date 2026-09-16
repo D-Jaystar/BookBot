@@ -20,5 +20,5 @@ BookBot is a Python-based command-line tool designed to analyze books and text d
 
 1. Clone the repository:
    ```sh
-   git clone <YOUR-GITHUB-REPO-URL>
+   git clone 
    cd bookbot
